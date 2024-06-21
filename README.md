@@ -4,7 +4,6 @@ Python Repo
 
 ## Table of Contents
 
-- [About the project](#about-the-project)
 - [AIM](#aim)
 - [Techniques Applied](#techniques-applied)
 - [Data Description](#data-description)
