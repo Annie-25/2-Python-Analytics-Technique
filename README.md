@@ -107,6 +107,7 @@ This function is also to plot a histogram for all the columns at the same time/s
 Output 3
 
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/24161e04-00d0-4640-8c0c-8998c239a5bd">
+
   
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/a656ce60-69f4-4d78-a2c7-95e3d3e93008">
   
@@ -250,6 +251,7 @@ CLASSIFICATION and REGRESSION
 
 Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data.   
  	  
+
 Regression
 
 Code Snippet 
@@ -264,25 +266,27 @@ Library to encode the unique values within a column/data frame.
 
 Total number of null values within the data frame 
 
-Encoding the unique values (Malignant & Benign) within the "diagnosis" column as 1 and 0 respectively.
-
 <img width="369" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3b8deb5d-6097-4f9e-8ee3-689633cb7fe9">
 
-![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c3bf288e-4144-4465-bbdb-6dbdcbc27b8e)
+Encoding the unique values (Malignant & Benign) within the "diagnosis" column as 1 and 0 respectively.
 
-To convert the string values to float with the column, "diagnosis"
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/e2f98e99-ac5f-4d6f-82b0-915e2b14ff4e">
 
-To split the data into test and train datasets of x and y 
+The code is explained below:
 
-To draw a linear regression 
+1. To convert the string values to float with the column, "diagnosis"
 
-To fit the x and y variables 
+2. To split the data into test and train datasets of x and y 
 
-To predict y (target) variables (diagnosis)
+3. To draw a linear regression 
 
-To display the model coefficients.
+4. To fit the x and y variables 
 
-To display the model intercept. 
+5. To predict y (target) variables (diagnosis)
+
+6. To display the model coefficients.
+
+7. To display the model intercept. 
 
 Print the formula y=mx+c (linear regression formula) with both x and y variables. 
 
@@ -413,32 +417,59 @@ Andrews Curves
  
 Output
 
+<img width="312" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fd9de93e-4358-4a81-83d9-c52bae7f1e31">
 
-Finding 
+Findings
+
 From the plot above, each color denotes a class. The dull greenish color represents 1.0 (Malignant) while the brighter greenish color represents 0.0 (Benign). As such the lines within the curves which denotes samples from the same class have similar curves. 
  
-  
-# Index to select specific rows and columns/values from a data frame. 
+Creating A New Dataframe
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/b31c975b-d5ee-43bc-afe1-fc893fcd5f52)
  
 Output 
  
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fd711246-12de-410f-a57d-765f983f1bd8)
+
+-number of clusters and iterations to be performed 
+-fitting the model to the new data frame 
+
+<img width="224" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/4e0ac44b-093e-40e1-8315-88bc641db295">
   
-# number of clusters and iterations to be performed 
-# fitting the model to the new data frame 
-  
-# Defining the centroids 
+Defining the centroids 
  
+<img width="195" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/aebb314a-8837-40f9-8d21-a679eee7ba53">
  
-Elbow Method 
- 
-# Considering the first and tenth columns for the clustering 
+Plotting the clustered results
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/93b001f7-0aeb-4f6a-ba6e-2646c6e4a5ca)
+
+Output
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/e18e0966-ae4c-48de-b247-e1b0d5144376)
+
+ELBOW METHOD
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/17a3ce8a-bde7-494b-ae5c-b34e81a978df)
+
+Considering the first and tenth columns for the clustering 
+
 Output 
- 
-Finding 
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/5c192b69-db85-407b-b7f7-e1a05ecc145a)
+
+Findings
+
 From the plot, it is evident that the elbow drops at 3. This justifies that the number of clusters defined previously as ‘3’ is correct. 
-Artificial Neural Network 
-Basic Neural Network Code Snippet 
-  
+
+## Artificial Neural Network
+
+BASIC NEURAL NETWORK
+
+Code Snippet 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/23cb809c-89ba-445b-adfa-69a8e8c42b65">
+ 
   
 Comment 
 Error 
