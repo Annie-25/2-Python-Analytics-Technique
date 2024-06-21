@@ -2,10 +2,27 @@
 
 Python Repo
 
+## Table of Contents
+
+- [About the project](#about-the-project)
+- [AIM](#aim)
+- [Techniques Applied](#techniques-applied)
+- [Data Description](#data-description)
+- [Data Preprocessing](#data-preprocessing)
+- [Data Distribution ](#data-distribution)
+- [Data Visualization](#data-visualization)
+- [Correlation](#correlation)
+- [Supervised Learning](#supervised-learning)
+- [Unsupervised Learning](#unsupervised-learning)
+- [Artificial Neural Network](#artificial-neural-network)
+  
 ## AIM 
 
-The aim of this work is to perform data description, data preprocessing, data cleaning, data visualization, correlation analysis, unsupervised clustering, supervised classification and regression tree, and artificial neural network analysis. The goal is to gain insights from the dataset, explore patterns, detect outliers, identify relationships between variables, and develop predictive models. 
+The aim of this work is to perform data description, data preprocessing, data cleaning, data visualization,correlation analysis, unsupervised clustering, supervised classification and regression tree, and artificial neural network analysis. The goal is to gain insights from the dataset, explore patterns, detect outliers, identify relationships between variables, and develop predictive models. 
 
+## Techniques Applied
+
+correlation analysis, unsupervised clustering, supervised classification and regression tree, and artificial neural network analysis
 
 ## Data Description 
 
@@ -58,7 +75,7 @@ To produce a descriptive statistic for the data frame
 <img width="135" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/29e70edf-ec35-48ef-8d28-dd3fbe4f982d">
 
      
-## Data visualization 
+## Data Visualization 
 Data visualization has various applications, including but not limited to aiding in the cleaning of data, exploring its structure, identifying outliers and anomalies in groups, recognizing trends and clusters, detecting local patterns, evaluating the output of models, and presenting results effectively. 
 
 ![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/00912adb-7fb5-464b-a021-cb7610897894)
@@ -246,13 +263,13 @@ SCATTER_MATRIX
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fc373f1c-ab6e-4f29-9360-37bea13e2c9c">
 
  	  
-## Supervised Tasks
+## Supervised Learning
 
 CLASSIFICATION and REGRESSION 
 
 Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data.   
  	  
-Regression
+#Regression
 
 Code Snippet 
 
@@ -318,7 +335,7 @@ To find the regression of the model, we first found the and the intercept and th
 indicating a malignant or cancerous cell. 
 
 
-## Classifiers 
+#Classifiers 
 
 Classification involves determining the category or subpopulation to which a new observation belongs, using a training dataset that consists of existing observations or instances.
 
@@ -404,11 +421,11 @@ In the given results:
  
 Based on the accuracy scores, LogisticRegression achieved the highest accuracy score of 0.9296703296703297, indicating that it performed slightly better than the other models in terms of accuracy. Therefore, based on this evaluation metric, LogisticRegression can be considered the best fit among the given models. 
  	 
-## Unsupervised Tasks 
+## Unsupervised Learning 
 
 Unsupervised learning is a type of machine learning technique that involves the exploration of patterns and relationships within unlabelled and uncategorized training data in order to uncover interesting and previously unknown insights.  
 
-CLUSTERING
+#CLUSTERING
 
 Clustering is an unsupervised method of machine learning that involves segregating a group of data points based on their degree of similarity, often measured through distance. The main objective of clustering is to identify subgroups within a diverse dataset in such a way that each cluster has more uniformity than the dataset as a whole. 
 
@@ -477,7 +494,7 @@ From the plot, it is evident that the elbow drops at 3. This justifies that the 
 
 ## Artificial Neural Network
 
-BASIC NEURAL NETWORK
+#BASIC NEURAL NETWORK
 
 Code Snippet 
 
@@ -490,7 +507,7 @@ Comment
 
 Error 
 
-MLPREGRESSOR
+#MLPREGRESSOR
 
 Code Snippet 
 
