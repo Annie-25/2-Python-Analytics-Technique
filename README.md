@@ -111,6 +111,7 @@ Output 3
   
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/a656ce60-69f4-4d78-a2c7-95e3d3e93008">
   
+
 Finding 3 
 
 Area 
@@ -251,20 +252,21 @@ CLASSIFICATION and REGRESSION
 
 Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data.   
  	  
-
 Regression
 
 Code Snippet 
 
 <img width="319" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/f0dc6de4-5fa9-4b8a-a7e1-26ad7eec4fe8">
 
-Library to train, test, and split the data frame for further analysis.
+ The code is explained below:
+ 
+-Library to train, test, and split the data frame for further analysis.
 
-Library to create a linear regression for the model 
+-Library to create a linear regression for the model 
 
-Library to encode the unique values within a column/data frame. 
+-Library to encode the unique values within a column/data frame. 
 
-Total number of null values within the data frame 
+-Total number of null values within the data frame 
 
 <img width="369" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3b8deb5d-6097-4f9e-8ee3-689633cb7fe9">
 
@@ -300,9 +302,14 @@ Metrics libraries to calculate mean squared error, r2 score and mean absolute er
   
 <img width="447" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/ed9e5e47-14f9-48d2-8c1e-3ecc00084009">
 
+
 <img width="78" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/96020180-e23e-466b-8745-df9ab8a0dc44">
 
+
+
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/65199301-a626-44c9-a4cf-af54d2f9eb49">
+
+
 
 Comment 
 
@@ -469,20 +476,48 @@ BASIC NEURAL NETWORK
 Code Snippet 
 
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/23cb809c-89ba-445b-adfa-69a8e8c42b65">
+
  
-  
-Comment 
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/43cd08cf-380f-4b71-9192-de099c4e65f8">
+ 
+Comment
+
 Error 
-MLPRegressor 
+
+MLPREGRESSOR
+
 Code Snippet 
-  
-# Libraries needed to carry out a MLPRegressor network. 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/011f9d20-c00e-4006-95f9-b939d1c0eb37">
+
+Libraries needed to carry out a MLPRegressor network. 
     
+<img width="134" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fa4e1b9b-8942-41c4-b8b2-5bd05b57feab">
+
+summary of x-train
   
+<img width="69" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c32c850d-2ee1-46a7-90e4-17140e103c5b">
+
+ viewing y-train
+ 
+<img width="137" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/de066adf-2fb3-49dc-a0dc-3995d8cc1780">
+
+  summary y-train
   
-  
-  
-Comment 
+<img width="306" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/1dd98319-1f20-4f68-95ca-f827ba852a81">
+
+Creating the MLPRegressor model
+
+<img width="192" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/d25e621c-09b3-4c15-9073-484b197287fa">
+
+Fitting and predicting the model
+
+<img width="292" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/88e5bb50-7181-43f6-9722-41df35c85205">
+
+Printing the mean squared error (MAE), root mean square error (RMSE) and r-square
+
+Comment
+
 Since r2 is 0.56 denoting that it’s closer to 1, it indicates a better relationship between the predicted and actual values with a mean absolute error of 0.26 and a root mean squared error of 0.32. 
 
 
