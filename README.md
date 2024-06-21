@@ -334,30 +334,47 @@ RANDOM FOREST CLASSIFIER
 Code Snippet 
 
 <img width="310" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3dd45231-cca7-490c-a756-1cfb4e810898">
-
-  
-# Library to call the random forest classifier. 
-# Function to call the random forest classifier model 
-# Fitting x and y variables to the random forest classifier. 
-  
-# To predict y (target) variable using random forest model. 
  
-  
+-Library to call the random forest classifier. 
+
+-Function to call the random forest classifier model 
+
+-Fitting x and y variables to the random forest classifier. 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/963ecd8b-1088-4ebe-8d2d-ee3aec041125">
+
+To predict y (target) variable using random forest model. 
+ 
+Plotting the tree
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/90e4d1bc-11d8-4618-a5cc-65af3f7952d8">
+
 Output
-  
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/6c9fc467-efec-46ab-800e-06b1865a8ffa">
+
 Comment 
-The color of the squares in the visualization corresponds to the level of class purity. The benign class is represented by the color blue, while the malignant class is represented by the color orange. The darkness of the color indicates the purity of the class, with darker squares indicating a higher level of class purity. 	 
-Performance Metric Using Accuracy Score 
+
+The color of the squares in the visualization corresponds to the level of class purity. The benign class is represented by the color blue, while the malignant class is represented by the color orange. The darkness of the color indicates the purity of the class, with darker squares indicating a higher level of class purity. 
+
+Performance Metric Using Accuracy Score
+
 Code Snippet 
-  
-# Libraries to conduct performance metric to select best fit model using accuracy score. 
-  
-# To display, the classifier name and model 
-# To fit trained x and y to each model 
-# To print accuracy score for each model using x and y test values. 
+
+Import libraries to conduct performance metric to select best fit model using accuracy score.
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/7c75dc71-8695-49a2-8832-203ee749df2d">
+
+Finding out the classifier with highest accuracy score
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/36ec7acd-0941-43cd-b6ea-90e72bf412c6">
+
 Output
-  
+
+<img width="247" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/065194ec-a682-467d-96b6-56c7190f1623">
+
 Comment 
+
 In the given results: 
  
 -	LogisticRegression achieved a test accuracy score of 0.9296703296703297, which means it correctly predicted the labels for approximately 92.97% of the test samples. 
@@ -370,22 +387,33 @@ In the given results:
  
 Based on the accuracy scores, LogisticRegression achieved the highest accuracy score of 0.9296703296703297, indicating that it performed slightly better than the other models in terms of accuracy. Therefore, based on this evaluation metric, LogisticRegression can be considered the best fit among the given models. 
  	 
-Unsupervised Tasks 
-Clustering 
-According to El Bouchefry and de Souza (2020) unsupervised learning is a type of machine learning technique that involves the exploration of patterns and relationships within unlabelled and uncategorized training data in order to uncover interesting and previously unknown insights.  
- Alashwal et al., (2019) explained that, clustering is an unsupervised method of machine learning that involves segregating a group of data points based on their degree of similarity, often measured through distance. The main objective of clustering is to identify subgroups within a diverse dataset in such a way that each cluster has more uniformity than the dataset as a whole. 
-Code Snippet 
+## Unsupervised Tasks 
+
+Unsupervised learning is a type of machine learning technique that involves the exploration of patterns and relationships within unlabelled and uncategorized training data in order to uncover interesting and previously unknown insights.  
+
+CLUSTERING
+
+Clustering is an unsupervised method of machine learning that involves segregating a group of data points based on their degree of similarity, often measured through distance. The main objective of clustering is to identify subgroups within a diverse dataset in such a way that each cluster has more uniformity than the dataset as a whole. 
+
+Code Snippet
+
 K-Means Clustering 
-  
-# To import KMeans clustering library. 
-Finding 
+
+Importing K-Means library
+
+<img width="211" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3c1b45ae-ab3e-4fc1-b4bd-7fb447df1fd9">
+
+Findings
+
 The plot above indicates two columns, ‘diagnosis’ (x-axis) versus radius_mean (y-axis). In the plot are two classes from diagnosis column; 1 (Malignant) and 0 (Benign). Each color represents a cluster; red = cluster 1, green = cluster 2 and blue = cluster 3. 
  
 Andrews Curves 
-  
-# To plot andrews curve using diagnosis column. 
+
+<img width="266" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c702699d-0499-4415-bdbc-a1c80b7d4463">
+ 
 Output
- 	 
+
+
 Finding 
 From the plot above, each color denotes a class. The dull greenish color represents 1.0 (Malignant) while the brighter greenish color represents 0.0 (Benign). As such the lines within the curves which denotes samples from the same class have similar curves. 
  
