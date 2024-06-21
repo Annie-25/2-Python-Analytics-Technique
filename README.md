@@ -207,60 +207,105 @@ Finding 4
 •	The deeper the shade of green, the higher the texture_mean and radius_mean.  
  
  	 
-Correlation 
-In general, correlation refers to a way of gauging the connection between variables. When data is correlated, the size of one variable's values is linked to changes in the size of another variable's values, either positively (when they change in the same direction) or negatively (when they change in opposite directions). (Schober, Boer and Schwarte, 2018). Code Snippet 
-  
-# To plot a correlation matrix for the entire data frame. 
- 
-  
-# To create a heatmap of the correlation matrix above with annotations using the sns library 3. 
-  
- 
-Output 
-[Due to the size of the correlation matrix and heat map, a screenshot could not been attained. They can, however, be located in the jupyter file, output 17 and output 18] 
-Finding 
-The correlation matrix shows the correlation among several variables that determine the classification of the stages. Each cell indicates the correlation between two specific variables. For example, the correlation between radius_mean and perimeter_mean is 0.99 which indicates that they are strongly positively correlated while the correlation between the smoothness_se and texture_mean is 0.006614, indicating a weak positive relationship. It was also noted that some variables, for instance, texture_se and area_mean are negatively correlated. 
-Scatter_Matrix
-  
-# To import scatter matrix function from the pandas.plotting library 
-# Attributes are the columns to be considered for the scatter matrix. 
-# To plot a scatter matrix for the above attributes with a figure size (20x20) and color (blue) 
- 
- 	  
-Supervised Tasks 
-Classification and Regression Tree 
-Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data. (Chorbngam, Chawuthai and Anantpinijwatna, 2021).  
- 	  
-Regression 
+## Correlation
+
+In general, correlation refers to a way of gauging the connection between variables. When data is correlated, the size of one variable's values is linked to changes in the size of another variable's values, either positively (when they change in the same direction) or negatively (when they change in opposite directions). 
+
 Code Snippet 
+
+Plot a correlation matrix for the entire data frame.
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/949b506e-33c4-4d07-b414-7e4176835f4f)
+
+To create a heatmap of the correlation matrix above with annotations using the sns library 3. 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/6c59fe03-5b51-4c63-b457-60ecdcc12661">
+   
+Output 
+
+[Due to the size of the correlation matrix and heat map, a screenshot could not been attained. They can, however, be located in the jupyter file, output 17 and output 18] 
+
+Finding 
+
+The correlation matrix shows the correlation among several variables that determine the classification of the stages. Each cell indicates the correlation between two specific variables. For example, the correlation between radius_mean and perimeter_mean is 0.99 which indicates that they are strongly positively correlated while the correlation between the smoothness_se and texture_mean is 0.006614, indicating a weak positive relationship. It was also noted that some variables, for instance, texture_se and area_mean are negatively correlated. 
+
+SCATTER_MATRIX
+
+To import scatter matrix function from the pandas.plotting library.
+
+Attributes are the columns to be considered for the scatter matrix.
+
+To plot a scatter matrix for the above attributes with a figure size (20x20) and color (blue) 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fc373f1c-ab6e-4f29-9360-37bea13e2c9c">
+
+ 	  
+## Supervised Tasks
+
+CLASSIFICATION and REGRESSION TREE 
+
+Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data.   
+ 	  
+Regression
+
+Code Snippet 
+
+<img width="319" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/f0dc6de4-5fa9-4b8a-a7e1-26ad7eec4fe8">
+
+Library to train, test, and split the data frame for further analysis.
+
+Library to create a linear regression for the model 
+
+Library to encode the unique values within a column/data frame. 
+
+Total number of null values within the data frame 
+
+Encoding the unique values (Malignant & Benign) within the "diagnosis" column as 1 and 0 respectively.
+
+<img width="369" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3b8deb5d-6097-4f9e-8ee3-689633cb7fe9">
+
+![image](https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c3bf288e-4144-4465-bbdb-6dbdcbc27b8e)
+
+To convert the string values to float with the column, "diagnosis"
+
+To split the data into test and train datasets of x and y 
+
+To draw a linear regression 
+
+To fit the x and y variables 
+
+To predict y (target) variables (diagnosis)
+
+To display the model coefficients.
+
+To display the model intercept. 
+
+Print the formula y=mx+c (linear regression formula) with both x and y variables. 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/5bbe0168-6612-425c-af46-63036dcf67c0">
+
+To predict y variable using a new data frame of x variables. 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/98c434d1-2b42-4b65-b921-af8e7df30bf5">
+
+Metrics libraries to calculate mean squared error, r2 score and mean absolute error of the considered data frame. 
   
-# Library to train, test, and split the data frame for further analysis. 
-# library to create a linear regression for the model 
-# library to encode the unique values within a column/data frame. 
-# Total number of null values within the data frame 
-  
-# Function to encode the unique values (Malignant & Benign) within the "diagnosis" column as 1 and 0 respectively. 
-  
-# To convert the string values to float with the column, "diagnosis" 
-# To split the data into test and train datasets of x and y 
-# To draw a linear regression 
-# To fit the x and y variables 
-# To predict y (target) variables (diagnosis) 
-# To display the model coefficients. 
-# To display the model intercept. 
-  
-# To print the formula y=mx+c (linear regression formula) with both x and y variables. 
-  
-# To predict y variable using a new data frame of x variables. 
-  
-# Metrics libraries to calculate mean squared error, r2 score and mean absolute error of the considered data frame. 
-  
-  
+<img width="447" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/ed9e5e47-14f9-48d2-8c1e-3ecc00084009">
+
+<img width="78" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/96020180-e23e-466b-8745-df9ab8a0dc44">
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/65199301-a626-44c9-a4cf-af54d2f9eb49">
+
 Comment 
-To find the regression of the model, we first found the and the intercept and the coefficient to complete the equation; y=mx+c. We also run a code to check if the model fits the data frame. After which we predicted the model with new data value which gave us;  
- indicating a malignant or cancerous cell. 
-Classifiers 
-Classification involves determining the category or subpopulation to which a new observation belongs, using a training dataset that consists of existing observations or instances - (Lamba, Hsu and Alsadhan, 2021). 
+
+To find the regression of the model, we first found the and the intercept and the coefficient to complete the equation; y=mx+c. We also run a code to check if the model fits the data frame. After which we predicted the model with new data value which gave us;
+
+<img width="123" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/9bad121a-4935-4c10-a93c-a330bb7aab29">
+indicating a malignant or cancerous cell. 
+
+## Classifiers 
+Classification involves determining the category or subpopulation to which a new observation belongs, using a training dataset that consists of existing observations or instances.
+
 Code Snippet 
   
 Decision Tree Classifier 
