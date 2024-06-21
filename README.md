@@ -6,6 +6,7 @@ Python Repo
 
 The aim of this work is to perform data description, data preprocessing, data cleaning, data visualization, correlation analysis, unsupervised clustering, supervised classification and regression tree, and artificial neural network analysis. The goal is to gain insights from the dataset, explore patterns, detect outliers, identify relationships between variables, and develop predictive models. 
 
+
 ## Data Description 
 
 Data Shape  
@@ -25,6 +26,7 @@ Data Info
 <img width="123" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/94123731-fa90-446c-9f59-942c9d9c546f">
 
 Summary of the dataframe
+
 
 ## Data Preprocessing
 
@@ -47,13 +49,15 @@ select the 'id' column
 To drop the column 'id' from the data frame while maintaining other columns (for df.drop) 
 
 <img width="317" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/6bd6147c-c063-4ac3-ab0c-d2d449ac3daa"> 
+
  
 ## Data Distribution 
 
 To produce a descriptive statistic for the data frame
 
 <img width="135" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/29e70edf-ec35-48ef-8d28-dd3fbe4f982d">
-   	 
+
+     
 ## Data visualization 
 Data visualization has various applications, including but not limited to aiding in the cleaning of data, exploring its structure, identifying outliers and anomalies in groups, recognizing trends and clusters, detecting local patterns, evaluating the output of models, and presenting results effectively. 
 
@@ -242,7 +246,7 @@ To plot a scatter matrix for the above attributes with a figure size (20x20) and
  	  
 ## Supervised Tasks
 
-CLASSIFICATION and REGRESSION TREE 
+CLASSIFICATION and REGRESSION 
 
 Supervised learning is a machine learning method that involves training a model using labeled data to predict unknown values. The training data comprises a set of input-output pairs that the model uses to learn and make accurate predictions on new data.   
  	  
@@ -303,20 +307,34 @@ To find the regression of the model, we first found the and the intercept and th
 <img width="123" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/9bad121a-4935-4c10-a93c-a330bb7aab29">
 indicating a malignant or cancerous cell. 
 
+
 ## Classifiers 
+
 Classification involves determining the category or subpopulation to which a new observation belongs, using a training dataset that consists of existing observations or instances.
 
 Code Snippet 
-  
-Decision Tree Classifier 
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/001ebf17-f93a-4d02-b0ff-9b257e8e5354">
+
+DECISION TREE CLASSIFIER 
+
 Code Snippet 
   
-  
+<img width="262" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/a0abf388-01c3-4a58-b2d1-8ede65310aa9">
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/770d4625-3c6b-4c73-a4b6-d6f09031c6b4">
+
+<img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c07a9ab5-36ab-4dfb-8db5-47baaf5df9c3">
   
 Comment 
 The breast cancer dataset was visualized using a decision classifier that was trained with a maximum depth of 8. In the visualization, each square represents a node in the decision tree, and at the bottom of each square, there are two leaf nodes. The square contains information such as the gini impurity, the total number of samples per class, and the dominant class for the subset of training data at that particular node. This dominant class also represents the prediction output of the node. 
-Random Forest Classifier 
+
+RANDOM FOREST CLASSIFIER
+
 Code Snippet 
+
+<img width="310" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/3dd45231-cca7-490c-a756-1cfb4e810898">
+
   
 # Library to call the random forest classifier. 
 # Function to call the random forest classifier model 
