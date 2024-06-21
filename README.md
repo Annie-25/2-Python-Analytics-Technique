@@ -237,11 +237,11 @@ The correlation matrix shows the correlation among several variables that determ
 
 SCATTER_MATRIX
 
-To import scatter matrix function from the pandas.plotting library.
+-Import scatter matrix function from the pandas.plotting library.
 
-Attributes are the columns to be considered for the scatter matrix.
+-Attributes are the columns to be considered for the scatter matrix.
 
-To plot a scatter matrix for the above attributes with a figure size (20x20) and color (blue) 
+-Plot a scatter matrix for the above attributes with a figure size (20x20) and color (blue) 
 
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/fc373f1c-ab6e-4f29-9360-37bea13e2c9c">
 
@@ -302,13 +302,12 @@ Metrics libraries to calculate mean squared error, r2 score and mean absolute er
   
 <img width="447" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/ed9e5e47-14f9-48d2-8c1e-3ecc00084009">
 
-
+Number of rows and columns in the data
 <img width="78" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/96020180-e23e-466b-8745-df9ab8a0dc44">
 
-
+Print the mean squared error, r2 score and mean absolute error 
 
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/65199301-a626-44c9-a4cf-af54d2f9eb49">
-
 
 
 Comment 
@@ -330,14 +329,21 @@ Code Snippet
 DECISION TREE CLASSIFIER 
 
 Code Snippet 
-  
+
+Import the decision tree classifier model and fit it to the data
+ 
 <img width="262" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/a0abf388-01c3-4a58-b2d1-8ede65310aa9">
 
+Defining the names of the features on the tree
+
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/770d4625-3c6b-4c73-a4b6-d6f09031c6b4">
+
+Predict with new values
 
 <img width="468" alt="image" src="https://github.com/Annie-25/2-Python-Analytics-Technique/assets/173366226/c07a9ab5-36ab-4dfb-8db5-47baaf5df9c3">
   
 Comment 
+
 The breast cancer dataset was visualized using a decision classifier that was trained with a maximum depth of 8. In the visualization, each square represents a node in the decision tree, and at the bottom of each square, there are two leaf nodes. The square contains information such as the gini impurity, the total number of samples per class, and the dominant class for the subset of training data at that particular node. This dominant class also represents the prediction output of the node. 
 
 RANDOM FOREST CLASSIFIER
